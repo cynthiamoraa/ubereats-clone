@@ -9,7 +9,7 @@ import { FaWallet, FaUserFriends } from "react-icons/fa";
 const Navbar = () => {
 const [nav, setNav] = useState(false)
     return (
-      <div className="max-w-[1640] mx-auto flex justify-between items-center p-4">
+      <div className="max-w-full mx-auto flex justify-between items-center p-4">
         <div className="flex items-center">
           <div className="cursor-pointer">
             <AiOutlineMenu onClick={() => setNav(!nav)} size={30} />
